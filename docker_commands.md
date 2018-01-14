@@ -63,9 +63,9 @@ $ sudo docker run --name <container name> -p <host port>:<container port> -d <im
 
 10. kill container
 
-    ```bash
-    $ sudo docker kill <container name or id>
-    ```
+  ```bash
+  $ sudo docker kill <container name or id>
+  ```
 
 11. remove container
 
@@ -119,4 +119,9 @@ $ sudo docker run --name <container name> -p <host port>:<container port> -d <im
     $ sudo sudo docker push manoharramarao/zookeeper-3.4.10:1.0
     ```
 
-    ​
+
+
+
+Connecting to mongodb running in docker
+
+sudo docker exec -it ong_mongodb_3.4 mongo admin
