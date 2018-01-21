@@ -6,4 +6,6 @@
 4. [Change bash prompt](change_bash_prompt.md)
 5. [Ubuntu - swap ctrl and win](swap_ctrl_win.md)
 6. [KUbuntu - run commands on bootup](run_commands_on_bootup.md)
+7. [My Desktop Setup](my_dekstop_setup.md)
+
 
