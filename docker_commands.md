@@ -2,40 +2,39 @@
 
 1. Stop/start docker daemon
 
-```bash
-$ sudo service docker stop
-$ sudo service docker start
-```
+    ```bash
+    $ sudo service docker stop
+    $ sudo service docker start
+    ```
 
 2. To connect to a particular docker image
 
-```bash
-$ sudo docker exec -it <image name> bash
-```
+    ```bash
+    $ sudo docker exec -it <image name> bash
+    ```
 
 3. To pull an image. For example mongo db
 
-```bash
-$ sudo docker pull mongo
-```
+    ```bash
+    $ sudo docker pull mongo
+    ```
 
 4. To run a container from specific image
 
-```bash
-$ sudo docker run --name <container name> -d <image name>
-```
+    ```bash
+    $ sudo docker run --name <container name> -d <image name>
+    ```
+    **Example:**
 
-**Example:**
-
-```bash
-$ sudo docker run --name my-mongodb -d mongo
-```
+    ```bash
+    $ sudo docker run --name my-mongodb -d mongo
+    ```
 
 5. To see all running containers
 
-```bash
-$ sudo docker ps -a
-```
+  ```bash
+  $ sudo docker ps -a
+  ```
 
 6. To see all images
 
@@ -45,21 +44,21 @@ $ sudo docker ps -a
 
 7. Run container with port mapped to host machine's port
 
-```bash
-$ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
-```
+  ```bash
+  $ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
+  ```
 
 8. Running it in background
 
-```bash
-$ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
-```
+  ```bash
+  $ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
+  ```
 
 9. start/stop container
 
-   ```bash
-   $ sudo docker start/stop <container name or id>
-   ```
+  ```bash
+  $ sudo docker start/stop <container name or id>
+  ```
 
 10. kill container
 
