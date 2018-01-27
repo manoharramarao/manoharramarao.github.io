@@ -37,6 +37,7 @@
     ```
 
 5. Themes
+
     ![my_dekstop_setup_1](./assets/images/my_desktop_setup_1.png)
 
 6. Gnome-tweaks
@@ -53,8 +54,8 @@
 
 7. Settings app changes
 
-   1. Devices => keyboard => system => show the overview - Alt + Space
-   2. Devices => Displays => Night Light - On
+    1. Devices => keyboard => system => show the overview - Alt + Space
+    2. Devices => Displays => Night Light - On
 
 8. Encrypted home directory and swap partition using ecryptfs
     https://websiteforstudents.com/encrypt-home-folder-ubuntu-17-10/
@@ -81,7 +82,7 @@
 
 10. dconf-editor changes
 
-  1. /org/gnome/desktop/wm/preferences/button-layout - close,minimize,maximize
+    1. /org/gnome/desktop/wm/preferences/button-layout - close,minimize,maximize
 
 ## Screenshots
 
