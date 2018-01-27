@@ -1,5 +1,3 @@
-@import "{{ site.theme }}";
-
-header {
+.project-name {
 	  display: none;
   }
