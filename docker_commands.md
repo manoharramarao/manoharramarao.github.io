@@ -32,39 +32,39 @@
 
 5. To see all running containers
 
-  ```bash
-  $ sudo docker ps -a
-  ```
+    ```
+    $ sudo docker ps -a
+    ```
 
 6. To see all images
 
-   ```bash
-   $ sudo docker images
-   ```
+    ```bash
+    $ sudo docker images
+    ```
 
 7. Run container with port mapped to host machine's port
 
-  ```bash
-  $ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
-  ```
+    ```bash
+    $ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
+    ```
 
 8. Running it in background
 
-  ```bash
-  $ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
-  ```
+  	```bash
+  	$ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
+  	```
 
 9. start/stop container
 
-  ```bash
-  $ sudo docker start/stop <container name or id>
-  ```
+  	```bash
+  	$ sudo docker start/stop <container name or id>
+  	```
 
 10. kill container
 
-  ```bash
-  $ sudo docker kill <container name or id>
-  ```
+  	```bash
+  	$ sudo docker kill <container name or id>
+  	```
 
 11. remove container
 
