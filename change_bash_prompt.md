@@ -3,6 +3,7 @@ Steps to change bash prompt in Linux/ubuntu/Kubuntu
 
 1. Copy the following to ~/.bashrc at the end of the file
     ```bash
+    {% raw %}
     function parse_git_branch () {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
     }
@@ -14,6 +15,7 @@ Steps to change bash prompt in Linux/ubuntu/Kubuntu
 
     #PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
     PS1="\D{%G %m %d} \t \W$YELLOW\$(parse_git_branch)$NO_COLOR => "
+    {% endraw %}
     ```
 2. source ~/.bashrc
 3. with the above changes, prompt would look like this
