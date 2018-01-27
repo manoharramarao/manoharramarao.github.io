@@ -37,7 +37,7 @@
     ```
 
 5. Themes
-    ![my_dekstop_setup_1](./assets/images/my_desktop_setup_1.png)
+    ![my_dekstop_setup_1](my_dekstop_setup_1.png)
 
 6. Gnome-tweaks
 
@@ -87,11 +87,11 @@
 
 
 
-![my_dekstop_setup_2](./assets/images/my_desktop_setup_2.png)
+![my_dekstop_setup_2](my_desktop_setup_2.png)
 
 
 
-![my_desktop_setup_3](./assets/images/my_desktop_setup_3.png)
+![my_desktop_setup_3](my_desktop_setup_3.png)
 
 
 
