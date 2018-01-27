@@ -50,21 +50,21 @@
 
 8. Running it in background
 
-  	```bash
-  	$ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
-  	```
+    ```bash
+    $ sudo docker run --name <container name> -p <host port>:<container port> -d <image name>
+    ```
 
 9. start/stop container
 
-  	```bash
-  	$ sudo docker start/stop <container name or id>
-  	```
+    ```bash
+    $ sudo docker start/stop <container name or id>
+    ```
 
 10. kill container
 
-  	```bash
-  	$ sudo docker kill <container name or id>
-  	```
+    ```bash
+    $ sudo docker kill <container name or id>
+    ```
 
 11. remove container
 
