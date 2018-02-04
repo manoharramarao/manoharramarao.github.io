@@ -1,4 +1,6 @@
-Desktop launcher for Typora
+# Create desktop launcher
+
+Make any file that can run to launch from desktop by using app launcher (win+space)
 
 1.  Create Typora.desktop file with the following contents (replace file paths properly)
 
