@@ -7,5 +7,6 @@
 5. [Ubuntu - swap ctrl and win](swap_ctrl_win.md)
 6. [KUbuntu - run commands on bootup](run_commands_on_bootup.md)
 7. [My Desktop Setup](my_desktop_setup.md)
+8. [Create desktop launcher for any file](create_desktop_launcher.md)
 
 
