@@ -8,5 +8,6 @@
 6. [KUbuntu - run commands on bootup](run_commands_on_bootup.md)
 7. [My Desktop Setup](my_desktop_setup.md)
 8. [Create desktop launcher for any file](create_desktop_launcher.md)
+9. [Create persistent ubuntu usb](persistent_ubuntu_on_usb.md)
 
 
