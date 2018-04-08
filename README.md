@@ -10,5 +10,6 @@
 8. [My Desktop Setup](my_desktop_setup.md)
 9. [Create desktop launcher for any file](create_desktop_launcher.md)
 10. [Create persistent ubuntu usb](persistent_ubuntu_on_usb.md)
+11. [Recover Bootloader Mac OS](recover_bootloader.md)
 
 
