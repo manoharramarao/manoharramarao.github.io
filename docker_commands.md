@@ -5,6 +5,7 @@
     ```bash
     $ sudo service docker stop
     $ sudo service docker start
+    $ sudo systemctl status docker # to check the status of docker daemon
     ```
 
 2. To connect to a particular docker image
