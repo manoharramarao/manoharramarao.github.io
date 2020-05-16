@@ -125,3 +125,45 @@
 Connecting to mongodb running in docker
 
 sudo docker exec -it ong_mongodb_3.4 mongo admin
+
+
+
+## Installing docker on ubuntu 19.10
+
+```bash
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+$ sudo bash -c 'echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu disco stable" > /etc/apt/sources.list.d/docker-ce.list'
+$ sudo apt-get update
+$ apt-cache policy docker-ce
+$ sudo apt-get install -y docker-ce
+$ sudo systemctl status docker
+```
+
+
+
+## Installing MongoDB on docker
+
+```bash
+$ docker pull mongo
+$ sudo adduser mongo
+$ sudo mkdir /home/mongo/data
+$ sudo mkdir /home/mongo/backups
+$ docker run --name strapi_mongo -p 27017:27017 -v /home/mongo/data:/data/db -v /home/mongo/backups:/backups -d mongo
+# install mongodb clients
+$ sudo apt-get install mongodb-clients
+
+# Get into mongodb. Below command will create db with name strapi_db
+$ mongo localhost/strapi_db
+
+```
+
+
+
+## References
+
+<https://tech.oeru.org/installing-mongodb-docker-ubuntu-linux-1404>
+
+<https://manoharramarao.github.io/docker_commands.html>
+
+<https://www.thachmai.info/2015/04/30/running-mongodb-container/>
+
