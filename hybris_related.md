@@ -19,3 +19,8 @@ Apparel Store – UK: <http://localhost:9001/yacceleratorstorefront?site=apparel
 
 
 Apparel Store – Germany: <http://localhost:9001/yacceleratorstorefront?site=apparel-de&clear=true>
+
+
+
+backoffice - https://localhost:9002/backoffice/
+

@@ -159,6 +159,28 @@ $ mongo localhost/strapi_db
 
 
 
+# Troubleshooting
+
+```bash
+Jun 16 18:31:08 mac15-u1904 systemd[1]: Starting LSB: Create lightweight, portable, self-sufficient containers....
+Jun 16 18:31:10 mac15-u1904 docker[1029]:  * /usr/bin/dockerd not present or not executable
+Jun 16 18:31:10 mac15-u1904 systemd[1]: docker.service: Control process exited, code=exited, status=1/FAILURE
+Jun 16 18:31:10 mac15-u1904 systemd[1]: docker.service: Failed with result 'exit-code'.
+Jun 16 18:31:10 mac15-u1904 systemd[1]: Failed to start LSB: Create lightweight, portable, self-sufficient containers..
+
+```
+
+Solution
+
+```bash
+$ sudo apt install containerd
+$ sudo apt install docker.io
+```
+
+
+
+
+
 ## References
 
 <https://tech.oeru.org/installing-mongodb-docker-ubuntu-linux-1404>
