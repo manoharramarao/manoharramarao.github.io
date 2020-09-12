@@ -1,5 +1,51 @@
 # Docker commands
 
+## Installing Docker on ubuntu
+
+1. Update software repositories
+
+   ```bash
+   $ sudo apt-get update
+   ```
+
+2. Uninstall oder version
+
+   ```bash
+   $ sudo apt-get remove docker docker-engine docker.io
+   ```
+
+3. Install docker
+
+   ```bash
+   $ sudo apt install docker.io
+   ```
+
+4. Stop docker
+
+   ```bash
+   $ sudo systemctl stop docker
+   ```
+
+5. Enable docker
+
+   ```bash
+   $ sudo service enable docker
+   ```
+
+6. Start docker
+
+   ```bash
+   $ sudo service start docker
+   ```
+
+7. Check status
+
+   ```bash
+   $ sudo service status docker
+   ```
+
+## Other helpful commands
+
 1. Stop/start docker daemon
 
     ```bash
@@ -156,6 +202,18 @@ $ sudo apt-get install mongodb-clients
 $ mongo localhost/strapi_db
 
 ```
+
+
+
+## Installing Postgresql using docker
+
+```bash
+$ sudo docker pull postgres
+$ mkdir ~/projects/personal/srm/data_base/data
+$ sudo docker run --name srm-pg-db -e POSTGRES_password=<password> -d -p 5432:5432 -v ~/projects/personal/srm/data_base/data:/var/lib/postgresql/data postgres:latest
+```
+
+<https://info.crunchydata.com/blog/easy-postgresql-10-and-pgadmin-4-setup-with-docker>
 
 
 

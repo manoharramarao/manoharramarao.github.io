@@ -30,6 +30,10 @@
 
 15. [Docker MySQL setup](docker_mysql.md)
 
+16. [Vysor in Ubuntu](vysor_in_ubuntu.md)
+
+17. [Opening ports in Ubuntu](opening_ports.md)
+
     ​
 
 
