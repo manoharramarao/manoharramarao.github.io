@@ -19,6 +19,3 @@ mysql> select host, user from mysql.user;
 ```bash
 mysql> flush privileges;
 ```
-
-
-

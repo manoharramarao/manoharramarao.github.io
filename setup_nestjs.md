@@ -9,8 +9,6 @@ project directory has the following directories
 99_source
 ```
 
-
-
 ## Install nodejs
 
 Download nodejs from <https://nodejs.org/en/download/>
@@ -94,4 +92,3 @@ Solution - go inside 99_source/proj_name and do
 ```bash
 $ npm i --save @nestjs/microservices
 ```
-
