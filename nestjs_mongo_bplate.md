@@ -31,25 +31,25 @@ Mongo DB container is built in this step
 
 Below are the settings for Wombat
 
-<img src="/Users/manohar/projects/manoharramarao.github.io/nestjs_mongo_bplate.assets/image-20210208082156647.png" alt="image-20210208082156647" style="zoom:50%;" />
+<img src="./assets/image-20210208082156647.png" alt="image-20210208082156647" style="zoom:50%;" />
 
 
 
-<img src="/Users/manohar/projects/manoharramarao.github.io/nestjs_mongo_bplate.assets/image-20210208082242168.png" alt="image-20210208082242168" style="zoom:50%;" />
+<img src="./assets/image-20210208082242168.png" alt="image-20210208082242168" style="zoom:50%;" />
 
 
 
-<img src="/Users/manohar/projects/manoharramarao.github.io/nestjs_mongo_bplate.assets/image-20210208082352458.png" alt="image-20210208082352458" style="zoom: 50%;" />
+<img src="./assets/image-20210208082352458.png" alt="image-20210208082352458" style="zoom: 50%;" />
 
 
 
 **Step 5 -** Robo3T - check if you have the record in the DB
 
-<img src="/Users/manohar/projects/manoharramarao.github.io/nestjs_mongo_bplate.assets/image-20210208083534176.png" alt="image-20210208083534176" style="zoom:50%;" />
+<img src="./assets/image-20210208083534176.png" alt="image-20210208083534176" style="zoom:50%;" />
 
-<img src="/Users/manohar/projects/manoharramarao.github.io/nestjs_mongo_bplate.assets/image-20210208083516951.png" alt="image-20210208083516951" style="zoom:50%;" />
+<img src="./assets/image-20210208083516951.png" alt="image-20210208083516951" style="zoom:50%;" />
 
-<img src="/Users/manohar/projects/manoharramarao.github.io/nestjs_mongo_bplate.assets/image-20210208083554846.png" alt="image-20210208083554846" style="zoom:50%;" />
+<img src="./assets/image-20210208083554846.png" alt="image-20210208083554846" style="zoom:50%;" />
 
-<img src="/Users/manohar/projects/manoharramarao.github.io/nestjs_mongo_bplate.assets/image-20210208083714685.png" alt="image-20210208083714685" style="zoom:50%;" />
+<img src="./assets/image-20210208083714685.png" alt="image-20210208083714685" style="zoom:50%;" />
 
