@@ -5,7 +5,7 @@ Steps to change bash prompt in Linux/ubuntu/Kubuntu
     ```bash
     {% raw %}
     function parse_git_branch () {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+        git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
     }
 
     RED="\[\033[0;31m\]"
@@ -14,7 +14,7 @@ Steps to change bash prompt in Linux/ubuntu/Kubuntu
     NO_COLOR="\[\033[0m\]"
 
     #PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
-    PS1="\D{%G %m %d} \t \W$YELLOW\$(parse_git_branch)$NO_COLOR => "
+    PS1="$YELLOW\D{%G %m %d} \t \W$GREEN\$(parse_git_branch)$NO_COLOR \n=> "
     {% endraw %}
     ```
 2. source ~/.bashrc
