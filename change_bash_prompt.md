@@ -12,9 +12,15 @@ Steps to change bash prompt in Linux/ubuntu/Kubuntu
     YELLOW="\[\033[0;33m\]"
     GREEN="\[\033[0;32m\]"
     NO_COLOR="\[\033[0m\]"
-
+    MAGENTA="\[\033[1;31m\]"
+    ORANGE="\[\033[1;33m\]"
+    PURPLE="\[\033[1;35m\]"
+    WHITE="\[\033[1;37m\]"
+    BOLD=""
+    RESET="\[\033[m\]"
+    
     #PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
-    PS1="$YELLOW\D{%G %m %d} \t \W$GREEN\$(parse_git_branch)$NO_COLOR \n=> "
+    PS1="$PURPLE\D{%G %m %d} | $MAGENTA\t | $YELLOW\W |$GREEN\$(parse_git_branch)$NO_COLOR \n=> "
     {% endraw %}
     ```
 2. source ~/.bashrc
