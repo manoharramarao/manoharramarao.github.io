@@ -20,7 +20,7 @@ Steps to change bash prompt in Linux/ubuntu/Kubuntu
     RESET="\[\033[m\]"
     
     #PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
-    PS1="$PURPLE\D{%G %m %d} $WHITE| $MAGENTA\t $WHITE| $YELLOW\W $WHITE|$GREEN\$(parse_git_branch)$NO_COLOR \n=> "
+    PS1="$PURPLE\D{%G %m %d} $WHITE| $MAGENTA\t $WHITE| $YELLOW\W $WHITE|$GREEN\$(parse_git_branch)$RESET \n$RED=> $RESET"
     {% endraw %}
     ```
 2. source ~/.bashrc
