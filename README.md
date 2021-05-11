@@ -19,6 +19,7 @@
 17. [Opening ports in Ubuntu](opening_ports.md)
 18. [Pgadmin local setup](pgadmin_local_setup.md)
 19. [Postgres local setup](postgres_local_setup.md)
+20. [.jks to .crt + .key](jks_to_crt.md)
 
 
 
