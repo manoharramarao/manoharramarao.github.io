@@ -26,8 +26,12 @@ Steps to change bash prompt in Linux/ubuntu/Kubuntu
 2. source ~/.bashrc
 3. with the above changes, prompt would look like this
     ```bash
-    2018 01 14 01:14:23 data_related (master) =>
+    dell13 | 2021 05 15 | 15:07:13 | nextjs-blog | (feature-api-routes) 
+    =>
     ```
+    
+    ![image](https://user-images.githubusercontent.com/2945080/118355778-8f0ee180-b58f-11eb-88f2-93f59dcae848.png)
+
 
 
 
