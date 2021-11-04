@@ -35,9 +35,7 @@ Steps to change bash prompt in Linux/ubuntu/Kubuntu
     dell13 | 2021 05 15 | 15:07:13 | nextjs-blog | (feature-api-routes) 
     ⚡
     ```
-    
-    ![image](https://user-images.githubusercontent.com/2945080/118355778-8f0ee180-b58f-11eb-88f2-93f59dcae848.png)
-
+    ![image](https://user-images.githubusercontent.com/2945080/140285264-a00d6583-1e90-4696-aec9-61f615f51fbc.png)
 
 
 
