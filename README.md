@@ -20,6 +20,7 @@
 18. [Pgadmin local setup](pgadmin_local_setup.md)
 19. [Postgres local setup](postgres_local_setup.md)
 20. [.jks to .crt + .key](jks_to_crt.md)
+20. [Typora css settings](typora_css_changes.md)
 
 
 
