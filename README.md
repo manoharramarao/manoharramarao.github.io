@@ -22,6 +22,7 @@
 20. [.jks to .crt + .key](jks_to_crt.md)
 21. [Typora css settings](typora_css_changes.md)
 22. [Postgres related](postgres_related.md)
+23. [Misc](./misc.md)
 
 # Projects
 
